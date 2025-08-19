@@ -1,0 +1,20 @@
+{
+  "version": "0.1.0",
+  "contracts": {
+    "counter-access-control": "contracts/counter-access-control.clar"
+  },
+  "networks": {
+    "testnet": {
+      "url": "https://testnet.blockstack.org",
+      "explorer": "https://explorer.testnet.stacks.co"
+    },
+    "mainnet": {
+      "url": "https://stacks-node-api.mainnet.stacks.co",
+      "explorer": "https://explorer.stacks.co"
+    }
+  },
+  "test": {
+    "network": "testnet",
+    "timeout": 30000
+  }
+}
